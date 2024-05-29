@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>קייטנת קיץ ספורטיבית בעין הים</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        .container h1 {
+            margin-bottom: 20px;
+            color: #ff6347;
+        }
+        .details {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .details ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .details ul li {
+            margin-bottom: 10px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: right;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: #fff;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>קייטנת קיץ ספורטיבית בעין הים❗❗❗</h1>
+        <div class="details">
+            <p>בקייטנה נעסוק בעיקר בפעילות גופנית ועבודת צוות.</p>
+            <ul>
+                <li>● אימוני כושר (בהם נתמקד על פיתוח מסת שריר, סיבולת לב ריאה וקורדינציה) 🏋🏼💪🏽</li>
+                <li>● משחקי כדור 🏀⚽🏉</li>
+                <li>● טיולים ומשימות מאתגרות ברחבי השכונה (באזור החורשה, הדיונות וחוף הים) 🏝🔥</li>
+                <li>● ימי כיף מחוץ לשכונה בפארקים בריכות ועוד</li>
+            </ul>
+            <p>מתאים לבנים ובנות בכיתות ג'- ז' בקבוצות נפרדות לפי גיל.</p>
+            <p>לפרטים - תומר אלברט - חייל משוחרר, יליד ותושב השכונה, מאמן מוסמך בוינגט ושחקן כדורסל מקצועי 054-2502027</p>
+            <ul>
+                <li>* אופציה להרשמה לימים בודדים</li>
+                <li>* אופציה לצהרון לאחר שעות הקייטנה</li>
+                <li>* המחירים המשתלמים באזור❗</li>
+                <li>* מכירה מוקדמת (ומוזלת) עד ה- 5/6</li>
+            </ul>
+        </div>
+        <form action="/submit" method="POST">
+            <div class="form-group">
+                <label for="name">שם:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">טלפון:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">שלח</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
